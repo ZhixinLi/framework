@@ -213,6 +213,7 @@ class Loader
     }
 
     // 注册命名空间
+    //命名空间和物理路径绑定
     public static function addNamespace($namespace, $path = '')
     {
         if (is_array($namespace)) {
